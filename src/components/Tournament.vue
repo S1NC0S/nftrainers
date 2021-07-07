@@ -5,7 +5,7 @@
       <div class="standing">
         <img src="https://i.imgur.com/7ydSQiJ.png" alt="">
         <div class="explainer">
-          Updates live which fight is currently running.
+          Shows upcoming fights too and the dates.
         </div>
       </div>
     </div>
@@ -23,10 +23,10 @@ export default {
   #tournament {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    margin: 20px 0;
+    padding: 0 0 50px 0;
     // background: #ff33ee;
-    background: #000;
+    background: #af0faf;
   }
   .container {
     height: 100%;

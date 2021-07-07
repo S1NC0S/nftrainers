@@ -5,8 +5,9 @@
     </div>
     <div class="container navigation">
       <a href="#versus"><div class="link">Versus</div></a>
-      <a href="#Teams"><div class="link">Teams</div></a>
+      <a href="#teams"><div class="link">Teams</div></a>
       <a href="#tournament"><div class="link">Tournament</div></a>
+      <a href="#prize"><div class="link">Prize</div></a>
       <a href="#FAQ"><div class="link">FAQ</div></a>
     </div>
   </div>
@@ -32,23 +33,31 @@ export default {
     color: red;
   }
   .name {
-    font-size: 46px;
+    font-size: 36px;
     color: #fff;
     font-weight: 900;
     text-transform: uppercase;
   }
   .navigation {
+    display: flex;
+    flex-wrap: wrap;
     width: 100;
   }
   a {
     color: #fff;
     text-transform: uppercase;
+    text-decoration: none;
   }
   .link {
-    display: inline-block;
-    padding: 20px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
   }
   .link:hover {
     background: #fff;
+    color: #000;
   }
 </style>

@@ -3,6 +3,8 @@
   <Versus />
   <Teams />
   <Tournament />
+  <Prize />
+  <FAQ />
   <Footer />
 </template>
 
@@ -11,12 +13,14 @@ import Nav from './components/Nav.vue'
 import Versus from './components/Versus.vue'
 import Teams from './components/Teams.vue'
 import Tournament from './components/Tournament.vue'
+import Prize from './components/Prize.vue'
+import FAQ from './components/FAQ.vue'
 import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Nav, Versus, Teams, Tournament, Footer
+    Nav, Versus, Teams, Tournament, Prize, FAQ, Footer
   }
 }
 </script>
