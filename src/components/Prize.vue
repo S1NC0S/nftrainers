@@ -2,7 +2,11 @@
   <div id="prize">
     <div class="title">Prize</div>
     <div class="container">
-      <div class="box prize">asdf</div>
+      <div class="box prize">
+        <video autoplay loop>
+          <source src="https://storage.opensea.io/files/47dfea8142bbec4c10be4db0fe8fcd60.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="box text">Distinctio non dolorem ratione provident quod dicta distinctio. Repudiandae nesciunt molestiae dolor. Rerum fuga soluta laudantium quia corrupti iste. Officia aut amet necessitatibus sed nihil. Earum non exercitationem blanditiis. Et nesciunt aut rem.
 
 Mollitia harum sed voluptatem modi. Vel facilis repudiandae nam. Minima reiciendis qui et maiores quia atque delectus libero.
@@ -47,9 +51,13 @@ export default {
     text-align: left;
     background: #333;
   }
+  video {
+    height: 100%;
+    width: 100%;
+  }
   .prize {
-    height: 400px;
-    width: 400px;
+    background: #fff;
+    padding: 10px;
   }
   .text {
     padding: 30px;

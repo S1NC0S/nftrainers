@@ -1,7 +1,7 @@
 <template>
   <div id="teams">
     <div class="box team1">
-      <div class="team-name">THE CONTENDERS</div>
+      <div class="team-name">TEAM NAKED</div>
       <div class="team-description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="box team2">
-      <div class="team-name">TEAM NAKED</div>
+      <div class="team-name">EVIL TEAM NAKED</div>
       <div class="team-description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
