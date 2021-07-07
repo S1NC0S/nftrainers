@@ -21,9 +21,9 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0ff;
+    background: #000;
     height: 110px;
-    margin: 50px 0 0 0;
+    margin: 0px 0 0 0;
   }
   .container {
     display: flex;

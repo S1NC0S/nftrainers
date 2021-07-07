@@ -7,7 +7,7 @@
       <div class="question">When do the battles start?</div>
       <div class="question">Some other question that is confusing?</div>
       <div class="question">What is the square root of pi?</div>
-      <div class="question">What if the absolute best pokemon in your opinion?</div>
+      <div class="question">What is the absolute best pokemon in your opinion?</div>
     </div>
   </div>
 </template>
@@ -25,13 +25,14 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0 0 30px 0;
-    background: #000;
+    padding: 20px 0 80px 0;
+    background: #0ff;
   }
   .title {
     flex: 0 0 100%;
-    color: #fff;
-    font-size: 40px;
+    font-weight: 900;
+    color: #000;
+    font-size: 50px;
     margin: 20px 0;
   }
   .accordion {
@@ -41,14 +42,17 @@ export default {
   .question {
     font-size: 22px;
     padding: 10px 0;
-    background: #03c;
+    background: #000;
     color: #fff;
     margin: 0 0 5px 0;
   }
   .content {
+    text-align: left;
     margin: 5px;
     padding: 20px;
-    color: #eee;
+    color: #000;
+    font-size: 18px;
+    background: #0ff;
     line-height: 1.5em;
   }
 </style>

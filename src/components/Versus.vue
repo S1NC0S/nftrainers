@@ -71,7 +71,7 @@ export default {
     display: inline-block;
     margin: 0;
     width: 100vw;
-    padding: 30px 0;
+    padding: 60px 0 70px 0;
     background: #3e25ee;
     white-space: nowrap;
     overflow: hidden;
@@ -160,7 +160,7 @@ export default {
     width: 100%;
     max-width: 1100px;
     background:#000;
-    box-shadow: 0px 0px 40px #000;
+    box-shadow: 0px 0px 20px #000;
   }
   .hp div {
     display: flex;

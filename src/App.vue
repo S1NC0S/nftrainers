@@ -4,6 +4,7 @@
   <Teams />
   <Tournament />
   <Prize />
+  
   <FAQ />
   <Footer />
 </template>

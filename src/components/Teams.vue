@@ -41,11 +41,10 @@ export default {
     align-items: center;
     margin: 20px auto 0 auto;
     max-width: 1100px;
-    padding: 80px 0;
+    padding: 60px 0;
     background: #000;
   }
   .box {
-    background: #333;
     width: calc(50% - 30px);
     padding: 0 0 10px 0;
   }

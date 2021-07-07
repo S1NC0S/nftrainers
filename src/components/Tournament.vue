@@ -5,7 +5,7 @@
       <div class="standing">
         <img src="https://i.imgur.com/7ydSQiJ.png" alt="">
         <div class="explainer">
-          Shows upcoming fights too and the dates.
+          Shows upcoming fights and the dates.
         </div>
       </div>
     </div>
@@ -39,7 +39,8 @@ export default {
   .title {
     flex: 0 0 100%;
     color: #fff;
-    font-size: 30px;
+    font-weight: 900;
+    font-size: 50px;
     text-transform: uppercase;
     margin: 30px 0 20px 0;
   }
